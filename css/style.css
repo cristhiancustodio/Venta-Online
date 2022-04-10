@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+    font-family: "Roboto" sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between; 
+    background-color: #FD651E;
+}
+.nav-img{
+    width: 33%;
+}
+.nav-img img{
+    height: 80px;
+}
+.nav-main{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    
+}
+.nav-main ul{
+    display: flex;
+    margin-top: 15px;
+    
+}
+.nav-main li{
+    list-style: none;
+    padding: 0 15px;
+    
+
+}
+.nav-main a{
+    text-decoration: none;
+    color: #000;   
+}
+.nav-main a:hover{
+    color: #fff;
+}
+.nav-sesion{
+    
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+.nav-sesion a {
+    
+    text-decoration: none;
+    
+    border-radius: 10px;
+    padding: 10px;
+    color: #000;
+    font-size: 15px;
+    background-color: #fff;
+}
+.nav-sesion a:hover {
+    color: #000;
+
+}
+/*Para cuando se logee*/
+.nav-acount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 120px;
+}
+
+
+/*Para los productos*/
+
+
+.card{
+    margin: 5px;
+}
+.productos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card-title{
+    color: #839192 ;
+}
+.card-text{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.card-price{
+    display: flex;
+    justify-content: space-between;
+}
+.card-price p{
+    color: #1C2833  ;
+}
+.d-grid input{
+    background-color: #FD651E;
+    padding: 5px 25px;
+    border: 1px solid #FD651E;
+    border-radius: 10px;
+    color: #fff;
+}
+
+
+
+footer{
+    background-color: #FD651E;
+    height: 200px;
+    margin-top: 50px;
+}
+
